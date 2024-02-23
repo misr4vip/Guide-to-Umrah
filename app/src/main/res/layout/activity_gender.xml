@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    tools:context=".GenderActivity">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="26sp"
+    android:textColor="@color/black"
+    android:text="نظرا لان بعض المناسك قد تختلف من الرجل للمرأة لذا يجب تحديد الجنس "
+    />
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:textColor="@color/black"
+            android:id="@+id/rbMale"
+            android:text="رجل"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:id="@+id/rbFemale"
+            android:text="امرأة"/>
+    </RadioGroup>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="التالي"
+        android:id="@+id/btnSaveGender"/>
+</LinearLayout>

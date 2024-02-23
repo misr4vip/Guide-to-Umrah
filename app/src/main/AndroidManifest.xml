@@ -99,9 +99,7 @@
                 android:value="" />
         </activity>
 
-        <meta-data
-            android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyAWvS4C3TBmhdW5c6-TEMON3LYVZg9_S5I" />
+       
 
         <activity
             android:name=".location_of_miqat"
